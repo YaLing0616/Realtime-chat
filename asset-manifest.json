@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Realtime-chat/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Realtime-chat/static/js/main.d4d3ec38.chunk.js",
+    "main.js.map": "/Realtime-chat/static/js/main.d4d3ec38.chunk.js.map",
+    "runtime-main.js": "/Realtime-chat/static/js/runtime-main.c4aeda3d.js",
+    "runtime-main.js.map": "/Realtime-chat/static/js/runtime-main.c4aeda3d.js.map",
+    "static/js/2.cd27d3c8.chunk.js": "/Realtime-chat/static/js/2.cd27d3c8.chunk.js",
+    "static/js/2.cd27d3c8.chunk.js.map": "/Realtime-chat/static/js/2.cd27d3c8.chunk.js.map",
+    "index.html": "/Realtime-chat/index.html",
+    "precache-manifest.5f3fd8ea3ec1d34b13a9a29b8ccfc68b.js": "/Realtime-chat/precache-manifest.5f3fd8ea3ec1d34b13a9a29b8ccfc68b.js",
+    "service-worker.js": "/Realtime-chat/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Realtime-chat/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.cd27d3c8.chunk.js.LICENSE.txt": "/Realtime-chat/static/js/2.cd27d3c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4aeda3d.js",
+    "static/js/2.cd27d3c8.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.d4d3ec38.chunk.js"
+  ]
+}
