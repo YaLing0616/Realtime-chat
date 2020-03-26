@@ -71,7 +71,7 @@ class SignUp extends Component {
                 .doc(this.state.email)
                 .set(userObj)
                 .then(() => {
-                    this.props.history.push('/Realtime-chat/dashboard')
+                    this.props.history.push('/Realtime-chat/login')
                 }, dbError => {
                     console.log(dbError);
                     this.setState({
@@ -104,13 +104,13 @@ class SignUp extends Component {
                         </FormControl>
                         <FormControl required fullWidth margin='normal'>
                             <InputLabel htmlFor='signup-password-input'>請輸入密碼</InputLabel>
-                            <Input type='password' onChange={(e) => this.userTyping('password', e)} autoFocus id='signup-password-input'></Input>
+                            <Input type='password' onChange={(e) => this.userTyping('password', e)} id='signup-password-input'></Input>
                         </FormControl>
                         <FormControl required fullWidth margin='normal'>
                             <InputLabel htmlFor='signup-password-confirmation-input'>再次確認密碼</InputLabel>
-                            <Input type='password' onChange={(e) => this.userTyping('passwordConfirmation', e)} autoFocus id='signup-password-confirmation-input'></Input>
+                            <Input type='password' onChange={(e) => this.userTyping('passwordConfirmation', e)} id='signup-password-confirmation-input'></Input>
                         </FormControl>
-                        <Button type='submit' fullWidth variant='contained' color='primary' className={classes.submit}>送出</Button>
+                        <Button type='submit' fullWidth variant='contained' color='primary' className={classes.submit}>註冊</Button>
                     </form>
                     {this.state.signupError
                     ?
@@ -121,7 +121,7 @@ class SignUp extends Component {
                         null
                     }
                     <Typography className={classes.hasAccountHeader}>已經有帳號了？</Typography>
-                    <Link className={classes.logInLink} to='/Realtime-chat/login'>Login</Link>
+                    <Link className={classes.logInLink} to='/Realtime-chat/login'>馬上去登入</Link>
                 </Paper>
             </main>
         );
