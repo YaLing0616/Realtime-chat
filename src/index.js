@@ -9,6 +9,7 @@ import Login from './components/login/login';
 import SignUp from './components/signup/signup';
 import Dashboard from './components/dashboard/dashboard';
 
+
 firebase.initializeApp({
     apiKey: "AIzaSyCcyufPWaWOcLvbBPgBArNMH5Q_gi9oBAY",
     authDomain: "realtime-chat-2598f.firebaseapp.com",
